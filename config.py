@@ -1,1 +1,4 @@
-TOKEN = "MTE4MjMzOTIwNDI3ODEzMjgzNw.GSfDe7.Y5ctzAh9sI-cKj00J8rF41gMnNiBiYsjMOmMRA"
+import os
+
+# Use the environment variable or provide a default value
+TOKEN = os.environ.get("MY_BOT_TOKEN", "Token is not accessible!!!")
